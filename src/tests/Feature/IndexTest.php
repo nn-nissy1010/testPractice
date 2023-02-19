@@ -31,5 +31,6 @@ class IndexTest extends TestCase
         $this->assertDatabaseHas('big_questions', [
             'name' => '広島の難読地名クイズ'
         ]);
+        
     }
 }
